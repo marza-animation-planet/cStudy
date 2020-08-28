@@ -5,3 +5,7 @@ gcc ./src/snake.c -o snake
 
 echo "=== Building Kompare..."
 gcc ./src/Kompare.c -o kompare
+
+echo "=== Building Table..."
+gcc ./src/table.c -std=c99 -o table
+

@@ -1,0 +1,2 @@
+
+Program("table", ["table.c"])
