@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+echo "=== Building Snake..."
+gcc ./src/snake.c -o snake
+
+echo "=== Building Kompare..."
+gcc ./src/Kompare.c -o kompare
