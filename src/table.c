@@ -279,7 +279,7 @@ int main(int argc, char **argv)
 
    fprintf(stdout, "---\n");
 
-   t2_resize(t, 6, 4, 0.33f);
+   t2_resize(t, 12, 4, 0.33f);
    t2_print(t);
 
    t2_free(&t);

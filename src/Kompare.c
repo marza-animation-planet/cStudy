@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <table.c>
+
 
 
 /* void CondenseRanges(ranges):
-
-
 
      for i in range(len(ranges)-1):
          try:
@@ -16,6 +16,27 @@
          except:
             continue
 */             
+
+float max(float a, float b){
+    if (a > b){
+        return a;
+    }
+    return b;
+}
+
+float condenseRanges(float input[], int size){
+    int i;
+    float result[];
+    
+    for (i=; i<size; i++){
+        if (input[i][1] >= input[i+1][0]){
+            float val = max(input[i+1][1], input[i][1]);
+            result[-1] = ({input[i][0], val})
+        }
+    }
+    for 
+
+}
 
 int main()
 {   
